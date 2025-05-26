@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/hecatia.png</imagen>
+    
+    <perfil id="hecatia" alias="Diosa del infierno" rareza="legendaria">
+      <nombre>Hecatia Lapislazuli</nombre>
+      <especie>Diosa</especie>
+      <poder>Tener tres cuerpos</poder>
+      <localizacion>Infierno </localizacion>
+      <descripcion>
+      <p>Una diosa misteriosa que gobierna los infiernos de la luna, la Tierra y otros mundos. Posee un cuerpo separado en cada uno de los mundos y puede actuar independientemente con cada uno de ellos.</p>
+      <p> Ya que la Luna, la Tierra y los demás mundos tienen su propio Infierno, y su alma central reside en el Infierno,
+es una diosa bastante problemática contra la que no se le puede tomar represalias fácilmente si se le ve como una enemiga. </p>
+      <p>Tiene un deseo inquebrantable de libertad personal y no le gustan los seres autoritarios de cualquier tipo (algo que coincide con su apariencia "no convencional"). Concretamente tiene un fuerte odio hacia los lunarians, ya que los considera antítesis de su ideología.</p>
+     
+      </descripcion>
+      <audio>audio/hecatia.opus</audio>
+      <tituloAudio>Pandemonic Planet</tituloAudio>
+    </perfil>
+    <perfil id="clownpiece" alias="Hada del infierno" rareza="atipica">
+      <nombre>Clownpiece</nombre>
+      <especie>Lampad</especie>
+      <poder>Generar locura en las personas</poder>
+      <localizacion>Infierno - Santuario Hakurei</localizacion>
+      <descripcion>
+      <p>Las hadas se pueden encontrar en casi cualquier lugar, el infierno no es una excepción, aunque a estas se les suele llamar Lampads.</p>
+      <p> Es una de las tantas subordinadas de Hecatia, quién la ha instruido para vivir en Gensokyo y actualmente vive bajo el Santuario de Hakurei en una réplica del infierno que hizo para sí misma. </p>
+      <p>La llama de su antorcha es capaz de afectar a la fuerza de vidam tanto para bien como para mal, esta antorcha arde con la fuerza vital de quienes cayeron al infierno. </p>
+     
+      </descripcion>
+      <audio>audio/clownpiece.opus</audio>
+      <tituloAudio>Pierrot of the Star ~ Spangled Banner</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
