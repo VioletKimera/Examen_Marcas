@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/sukuna.png</imagen>
+    
+    <perfil id="sukuna" alias="Descendiente de los Inchlings" rareza="excepcional">
+      <nombre>Shinmyoumaru Sukuna</nombre>
+      <especie>Inchling</especie>
+      <poder>Uso del "Martillo de los milagros"</poder>
+      <localizacion>Castillo de la aguja brillante</localizacion>
+      <descripcion>
+      <p>Es descendiente de Issun-Boushi, un legendario cazador de Oni que logró obtener de ellos un tesoro llamado el Martillo de los milagros. </p>
+      <p> Uno de sus descendientes lo decidió usar para vivir del lujo, deseando un gran castillo y el poder gobernar sobre la gente. En ese momento, apareció el Castillo de la Aguja brillante, y la energía del Martillo de los Milagros se agotó. Poco después, el precio del uso de tal poder empezó a manifestarse, el castillo se puso al revés y acto seguido descendieron a Gensokyo.</p>
+      <p>Actualmente reside en el Castillo de la aguja brillante, ha pasado mucho tiempo desde entonces y la gente de su raza que conocían ese pasado ya ha fallecido.</p>
+     
+      </descripcion>
+      <audio>audio/sukuna.mp3</audio>
+      <tituloAudio>Inchlings of the Shining Needle ~ Little Princess</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
