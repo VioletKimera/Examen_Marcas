@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/keiki.png</imagen>
+    
+    <perfil id="keiki" alias="Diosa escultora" rareza="epica">
+      <nombre>Keiki Haniyasushin</nombre>
+      <especie>Diosa</especie>
+      <poder>Crear ídolos</poder>
+      <localizacion>Jardín espiritual de las bestias</localizacion>
+      <descripcion>
+      <p>En el Reino Animal, donde los más fuertes reinan y los débiles se sometan, los espíritus humanos no podían competir con la fuerza de los espíritus de las bestias.
+      Pero los espíritus humanos buscaron una forma de liberarse del control de las bestias rezando por un salvador. Tras eso, Keiki fue convocada y les dijo que depositaran toda su fe en los ídolos que ella creaba.</p>
+      <p>Sin embargo, nunca pensó que a los semejantes de los espíritus animales se les ocurriría un plan para traer a un humano de la superficie para destruir a sus ídolos.</p>
+      <p>"Construiste todo este plan, y ahora huyes ante el enemigo... es el colmo de la idiotez. No pienses ni por un segundo que te dejaré escapar después de que hayas pisado mi territorio sagrado. Destruiré tu cuerpo de carne y te construiré de nuevo usando tierra y agua. Serás un ídolo sin un solo defecto".</p>
+     
+      </descripcion>
+      <audio>audio/keiki.opus</audio>
+      <tituloAudio>Entrust this World to Idols ~ Idolatrize World</tituloAudio>
+   </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
