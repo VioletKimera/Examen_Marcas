@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/youmu.png</imagen>
+    
+    <perfil id="Yuyuko" alias="Fantasma del idilio" rareza="legendaria">
+      <nombre>Yuyuko Saigyouji</nombre>
+      <especie>Fantasma</especie>
+      <poder>Manipulación de la muerte</poder>
+      <localizacion>Hakugyokurou (Inframundo)</localizacion>
+      <descripcion>
+        <p>Al principio, Yuyuko sólo poseía la habilidad de manipular las almas difuntas. Inconscientemente, ese poder se fortaleció y eventualmente poseyó la habilidad de tentar a otros a su muerte. Aterrorizada por su propia habilidad, se suicidó.  </p>
+        <p>La razón por la que Yuyuko no puede reencarnar ni desaparecer es por el sello en el Saigyou Ayakashi. Una vez que se rompa la frontera, el tiempo que se congeló continuará fluyendo, resultando en su muerte de nuevo. Revivir el cadáver destruirá el fantasma de Yuyuko, así que no es de extrañar que el casi éxito del avivamiento terminara en un fracaso inevitable.  </p>
+      <p> Después de todo, Yuyuko no es capaz de manipular nada más que la muerte.</p>
+      </descripcion>
+      <audio>audio/yuyuko.mp3</audio>
+      <tituloAudio>Bloom Nobly, Ink-Black Cherry Blossom ~ Border of Life</tituloAudio>
+    </perfil>
+    
+    <perfil id="Youmu" alias="Jardinera mitad humana" rareza="considerable">
+      <nombre>Youmu Kompaku</nombre>
+      <especie>Mitad humana - Mitad Fantasma</especie>
+      <poder>Técnicas de espada</poder>
+      <localizacion>Hakugyokurou (Inframundo)</localizacion>
+      <descripcion>
+        <p>Una jardinera que trabaja y vive en Hakugyokurou. Es mitad humana y mitad fantasma, mitad muerta y mitad viva.</p>
+        <p>Ni siquiera ella misma está segura de si está viva o no. A pesar de que tiene una esperanza de vida más larga que la de los humanos, parece que puede experimentar la muerte. Sus espadas fueron diseñadas principalmente contra seres espirituales, pero parecen funcionar también contra los seres vivos.  </p>
+      <p> Su katana se llama Roukanken, forjada por un yokai y con la capacidad de matar a diez fantasmas de un solo tajo, mientras que su wakizashi se llama Hakurouken y es una herencia de la familia Konpaku.</p>
+      </descripcion>
+      <audio>audio/youmu.mp3</audio>
+      <tituloAudio>Hiroari Shoots a Strange Bird ~ Till When?</tituloAudio>
+    </perfil>
+    
+  </personaje>
+</personajes>
