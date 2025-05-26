@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/byakuren.png</imagen>
+    
+    <perfil id="byakuren" alias="La gran maga sellada" rareza="Legendaria">
+      <nombre>Byakuren Hijiri</nombre>
+      <especie>Maga</especie>
+      <poder>Aumento de poder físico</poder>
+      <localizacion>Antiguo infierno de los fuegos ardientes</localizacion>
+      <descripcion>
+      <p>"Ahora mismo estás poseído por un espíritu maligno.
+Tienes que resistirte, o morirás".</p>
+
+<p>La cabeza del Templo Myouren, un templo budista que acepta incluso youkai.</p>
+      <p>En sus últimos años estudió el camino del Dharma, pero cuándo su hermano murió, empezó a tener un terrible miedo a la muerte. Para salvarse de su propia muerte, aprendió el poder del rejuvenecimiento. Pero en lugar de hacerlo por forma del Dharma, obtuvo este poder del youjutsu, una especie de brujería.</p>
+        <p> Al principio iba a servir a sus propios deseos, pero como se enteró del lamentable pasado de los youkai, comenzó a pensar que necesitaba hacer algo para ayudarlos.</p>
+    <p>Actualmente es la suma sacerdotisa en el Templo de Myouren, donde su objetivo principal es llevar la paz tanto a los humanos como a los youkai. Enseña el dharma a cualquiera que quiera escuchar y también gestiona los funerales y el cementerio. </p>
+    <p>Una vez al mes, realiza un "concierto en directo sutra-chanting de la noche a la mañana", donde canta una canción en monotono mientras mantiene el ritmo con un pez de madera. El evento atrae tanto a youkai como a los humanos. </p>
+      </descripcion>
+      <audio>audio/byakuren.mp3</audio>
+      <tituloAudio>Emotional Skyscraper ~ Cosmic Mind</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
