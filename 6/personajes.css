@@ -1,0 +1,96 @@
+
+/* tengo que comentar esto si ya he comentado el css de la página principal?*/
+
+/*Uso esto para el fondo, por que al ser la página pequeña me basta con el body*/
+body {
+    background: linear-gradient(to right, #ffcccb, #c71400);
+    margin: 0;
+   
+  
+}
+h1 {
+ text-align: center;
+ color: #610000;
+ 
+ 
+
+   
+}
+
+/*Parámetros de la ficha en si*/
+.personaje {
+  display: flex;
+  border: 2px solid #850000;
+  border-radius: 8px;
+  padding: 1em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-bottom: 2em;
+  background: #FEEFEC;
+}
+
+.personaje img {
+  max-width: 400px;
+  margin-right: 1em;
+  align-self: flex;
+  border-radius: 20px;
+}
+
+/*La existencia de un doble perfil significa que alguna vez existió el mono perfil, que está abajo pero no es un perfil persé*/
+.doble-perfil {
+  display: flex;
+  width: 100%;
+  gap: 1em;
+  
+}
+ /*Se llama perfil pero engloba la ficha entera*/
+.perfil {
+  flex: 100;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(230, 148, 123);
+  
+}
+
+.nombre {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.datos p, .descripcion p { /*Datos en general unificados, lo pongo así por que no quiero que me cambie futuros párrafos en otro sitio*/
+  margin: 20px;
+  color: rgb(51, 1, 1);
+  size: 2px;
+  font-size: 18px;
+}
+
+.descripcion {
+  margin-top: 1em;
+  flex-grow: 1;
+  margin: 20px;
+  font-style: italic;
+}
+ /*El reproductor es poco editable (sin usar cosas más complejas), por lo visto cambia según el navegador que se usa*/
+.musica {
+  margin-top: 1em;
+  text-align: center;
+}
+audio {
+    width: 700px;
+}
+
+/*Botón para volver*/
+
+.botonB {
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  z-index: 1000; /* Para que no se quede por detrás */
+  
+}
+.botonB img {
+width: 60px;
+  height: 60px;
+}

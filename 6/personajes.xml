@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+<!-- no se que comentar aquí la verdad, en el xml se ponen los datos de los personajes para luego transformar la data en el xsl-->
+<!-- Divisor principal (no me acuerdo cómo se le llamaba)-->
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro"> <!-- lo de doble ficha es por que en algunas fichas hay dos personajes en un mismo apartado, así salen juntos-->
+    <imagen>img/scarlet.png</imagen>
+    
+    <perfil id="Flandre" alias="Hermana del mal" rareza="sobrehumana"><!-- personaje 1-->
+      <nombre>Flandre Scarlet</nombre>
+      <especie>Vampira</especie>
+      <poder>Destruir cualquier cosa</poder>
+      <localizacion>Mansión Scarlet</localizacion>
+      <descripcion>
+        <p>Idolatra a su hermana mayor Remilia, pero su poder destructivo sin restricciones supera con creces al de su hermana. </p>
+        <p>Generalmente, los vampiros siempre atacan a los humanos sin matarlos cuándo se alimentan, pero Flandre sólo ha comido alimentos que se le han servido en la mansión para que no sepa cómo atacar adecuadamente a un humano. A causa de esto, no puede controlarse y termina matándolos sin dejar una gota de sangre. </p>
+      <p> Sus comidas diarias se hacen para que parezcan alimentos como pasteles y té, pero ni siquiera sabe que lo que realmente comía eran humanos vivos.</p>
+      </descripcion>
+      <audio>audio/flandre.mp3</audio>
+      <tituloAudio>U.N. Owen Was Her? </tituloAudio>
+    </perfil>
+    
+    <perfil id="Remilia" alias="Diablo escarlata" rareza="legendaria"><!-- personaje 2-->
+      <nombre>Remilia Scarlet</nombre>
+      <especie>Vampira</especie>
+      <poder>Manipulación del destino</poder>
+      <localizacion>Mansión Escarlata</localizacion>
+      <descripcion>
+        <p>Es respetada por la mayoría de youkai, pero su carisma no proviene de su personalidad, sino más bien viene del miedo que tienen por su especie. Tiene una hermana menor pero no se sabe nada más de su familia.</p>
+        <p>Sólo puede beber un poco de sangre a la vez, por lo que generalmente los humanos de los que se alimentan siguen vivos. Suele derramar más sangre de la que consume, la cual tiñe su vestido con un color escarlata, que es lo que da lugar a su título, el "Diablo Escarlata". </p>
+      <p> Cubrió Gensokyo con una niebla mágica color escarlata para tapar la luz del sol. Aunque lleva 500 años viva, su personalidad es la de una niña egoísta.</p>
+      </descripcion>
+      <audio>audio/remilia.mp3</audio>
+      <tituloAudio>Septette for a Dead Princess</tituloAudio>
+    </perfil>
+  </personaje>
+</personajes>
+<!-- la primera versión de la web tenía 8 personajes, pero hacer eso con todos los juegos se me hizo una odisea, así que cambié el enfoque del proyecto, aún lo guardo por si las ranas-->

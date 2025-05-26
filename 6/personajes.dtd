@@ -1,0 +1,23 @@
+<!ELEMENT personajes (personaje+)> <!-- la raíz-->
+
+<!ELEMENT personaje (imagen, perfil+)> <!-- contiene la imagen que hay por ficha y la ficha en sí, por eso dije que se llamaba perfil pero no era el perfil persé-->
+<!ATTLIST personaje id ID #REQUIRED> <!-- Atributos de los personajes, lo de la rareza es una inventada por que no sabía que data ponerle, pero funciona-->
+<!ATTLIST personaje alias CDATA #IMPLIED>
+<!ATTLIST personaje rareza CDATA "raro">
+
+<!ELEMENT imagen (#PCDATA)>
+
+<!-- el famoso elemento perfil que dentro contiene los subelementos-->
+<!ELEMENT perfil (nombre, especie, poder, localizacion, incidente, descripcion, audio, tituloAudio)>
+<!ATTLIST perfil id ID #REQUIRED> <!-- los atributos del perfil-->
+<!ATTLIST perfil alias CDATA #IMPLIED>
+<!ATTLIST perfil rareza CDATA "raro">
+<!-- los elementos de texto simples-->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT especie (#PCDATA)>
+<!ELEMENT poder (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>
+<!ELEMENT descripcion (p+)><!-- descripción hecha por uno o más párrafos, sin esto se mezclaban todos los párrafos (osea este y el de abajo)-->
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT audio (#PCDATA)> <!-- elementos del audio y el título del mismo, hasta que no puse esto el título hacía tremendo parkour-->
+<!ELEMENT tituloAudio (#PCDATA)>

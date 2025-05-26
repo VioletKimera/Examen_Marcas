@@ -1,0 +1,528 @@
+
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom,#000000 0%, #000000 40%, #ffffff 100%); /*Para que tenga más zona oscura*/
+      margin: 0;
+      padding: 40px;
+      justify-content: center;
+    }
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.menu1 { /*Afecta a todo el div de arriba*/
+    background-color: #ffffff;
+    font-family: Arial, sans-serif; 
+    border-radius: 12px;
+    
+  }
+  .horizontal { /*Barra horizontal de arriba*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .menu { /*Opciones de la barra*/
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+  border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    
+  }
+
+  /*Menu al pasar el cursor*/
+  .menu:hover {
+    background-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+   
+   
+  }
+  .menu:hover a{ 
+ color: white;
+  }
+  .submenu { /*Desplegables de la barra*/
+    list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+
+   /* Aparición suave */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  .submenu li a {
+    display: block;
+    padding: 10px 15px;
+ 
+    
+  }
+  
+  .menu:hover > .submenu { /*paneo hacia abajo*/
+    opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  }
+  
+  /*Menú de juegos(portadas)*/
+  #juegos table {
+      border-collapse: collapse;
+	  margin: auto;
+      margin-top: 20px;
+      
+      
+    }
+
+  /*Los banners de las secciones*/
+.banner {
+  background-color: #000000;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+    #juegos td { 
+      padding: 10px;
+      text-align: center;
+    }
+	
+	.juego { /*Para editar las portadas*/
+      width: 250px;
+      height: 250px;
+      object-fit: cover; /* sin esto se rompe*/
+      border-radius: 8px; /*espacio entre portadas (es un borde transparente)*/
+      transition: transform 0.3s ease; /*para suavizar la transición*/
+    }
+
+
+    /*Colores de puntero sobre caratulas, pondré un comentario laaaargo para que al hacer scroll aquí se vea dónde termina*/
+    /*Principales 1*/
+  .fila1 td:nth-child(1) img:hover { /*Para seleccionar posición del elemento que se modifica */
+  
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  transform: scale(1.1);
+}   
+ .fila1 td:nth-child(2) img:hover {
+  
+  box-shadow: 0 0 10px rgb(255, 0, 234);
+  transform: scale(1.1);
+}   
+   .fila1 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(255, 166, 0);
+  transform: scale(1.1);
+}
+.fila1 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(3, 255, 255);
+  transform: scale(1.1);
+}
+.fila1 td:nth-child(5) img:hover {
+  
+  box-shadow: 0 0 10px rgb(0, 252, 155);
+  transform: scale(1.1);
+}
+
+
+
+/*Principales fila 2*/
+
+.prinfila2 td:nth-child(1) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(0, 214, 203);
+  transform: scale(1.1);
+
+}   
+ .prinfila2 td:nth-child(2) img:hover {
+  
+  box-shadow: 0 0 10px rgb(0, 102, 255);
+  transform: scale(1.1);
+}   
+  .prinfila2 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(231, 112, 255);
+  transform: scale(1.1);
+}
+.prinfila2 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(165, 109, 255);
+  transform: scale(1.1);
+}
+.prinfila2 td:nth-child(5) img:hover {
+  
+  box-shadow: 0 0 10px rgb(255, 98, 50);
+  transform: scale(1.1);
+}
+
+/*principales fila 3*/
+
+.prinfila3 td:nth-child(1) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(243, 181, 255);
+  transform: scale(1.1);
+}   
+ .prinfila3 td:nth-child(2) img:hover {
+  
+  box-shadow: 0 0 10px rgb(165, 24, 24);
+  transform: scale(1.1);
+}   
+ 
+
+/*especiales fila 1*/
+.espfila1 td:nth-child(2) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(124, 56, 0);
+  transform: scale(1.1);
+}   
+ .espfila1 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(40, 32, 109);
+  transform: scale(1.1);
+}   
+  .espfila1 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(250, 170, 253);
+  transform: scale(1.1);
+}
+
+/* especiales fila 2*/
+
+.espfila2 td:nth-child(2) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(161, 12, 37);
+  transform: scale(1.1);
+}   
+ .espfila2 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(248, 10, 109);
+  transform: scale(1.1);
+}   
+  .espfila2 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(143, 160, 102);
+  transform: scale(1.1);
+}
+
+/* Lucha fila 1* (espero que se noten las simplificaciones de nombres)*/
+
+.luchfila1 td:nth-child(2) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(39, 12, 161);
+  transform: scale(1.1);
+}   
+ .luchfila1 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(248, 58, 10);
+  transform: scale(1.1);
+}   
+  .luchfila1 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(230, 238, 238);
+  transform: scale(1.1);
+}
+
+/* Lucha fila 2*/
+
+.luchfila2 td:nth-child(2) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(89, 74, 156);
+  transform: scale(1.1);
+}   
+ .luchfila2 td:nth-child(3) img:hover {
+  
+  box-shadow: 0 0 10px rgb(160, 51, 154);
+  transform: scale(1.1);
+}   
+  .luchfila2 td:nth-child(4) img:hover {
+  
+  box-shadow: 0 0 10px rgb(246, 140, 250);
+  transform: scale(1.1);
+}
+
+/* El único de lucha single player, lo pongo por si da errores en caso de hacerlo por separado*/
+
+.solofila td:nth-child(2) img:hover { 
+  
+  box-shadow: 0 0 10px rgb(255, 196, 3);
+  transform: scale(1.1);
+}   
+
+
+/* comentario laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargo (Termina los colores de caratulas, empieza colores de desplegables*/
+/* Efectos y colores desplegables juegos prinicpales */
+#EstiloP.submenu li:nth-child(1) a:hover { 
+  
+  background-color: #b90000;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  color: rgb(255, 226, 187);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(2) a:hover { 
+  
+  background-color: #9c00e4;
+  box-shadow: 0 0 10px rgb(209, 0, 209);
+  color: rgb(253, 247, 255);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(3) a:hover { 
+  
+  background-color: #eb6a01;
+  box-shadow: 0 0 10px rgb(255, 124, 1);
+  color: rgb(73, 0, 190);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(4) a:hover { 
+  
+  background-color: #6bcea8;
+  box-shadow: 0 0 10px rgb(13, 247, 255);
+  color: rgb(44, 0, 126);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(5) a:hover { 
+  
+  background-color: #000f64;
+  box-shadow: 0 0 10px rgb(13, 17, 255);
+  color: rgb(255, 154, 2);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(6) a:hover { 
+  
+  background-color: #000608;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  color: rgb(255, 3, 142);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(7) a:hover { 
+  
+  background-color: #027ba3;
+  box-shadow: 0 0 10px rgb(3, 205, 255);
+  color: rgb(126, 255, 87);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(8) a:hover { 
+  
+  background-color: #c4ac88;
+  box-shadow: 0 0 10px rgb(236, 218, 139);
+  color: rgb(158, 80, 158);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(9) a:hover { 
+  
+  background-color: #dbc1d9;
+  box-shadow: 0 0 10px rgb(165, 136, 163);
+  color: rgb(106, 54, 110);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(10) a:hover { 
+  
+  background-color: #d30f40;
+  box-shadow: 0 0 10px rgb(255, 30, 124);
+  color: rgb(72, 21, 255);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(11) a:hover { 
+  
+  background-color: #ffb4fb;
+  box-shadow: 0 0 10px rgb(255, 101, 255);
+  color: rgb(35, 173, 65);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+#EstiloP.submenu li:nth-child(12) a:hover { 
+  
+  background-color: #770000;
+  box-shadow: 0 0 10px rgb(241, 0, 0);
+  color: rgb(255, 174, 0);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}  
+
+
+/*Estilos desplegables juegos especiales*/
+
+#EstiloE.submenu li:nth-child(1) a:hover { 
+  
+  background-color: #b35925;
+  box-shadow: 0 0 10px rgb(255, 136, 0);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+} 
+#EstiloE.submenu li:nth-child(2) a:hover { 
+  
+  background-color: #3e40b8;
+  box-shadow: 0 0 10px rgb(64, 32, 247);
+  color: rgb(216, 130, 0);
+  font-weight: bold;
+  border-radius: 12px;
+ 
+}
+#EstiloE.submenu li:nth-child(3) a:hover { 
+  
+  background-color: #f7aee1;
+  box-shadow: 0 0 10px rgb(241, 162, 241);
+  color: rgb(0, 179, 202);
+  font-weight: bold;
+ border-radius: 12px;
+}  
+#EstiloE.submenu li:nth-child(4) a:hover { 
+  
+  background-color: #ad0048;
+  box-shadow: 0 0 10px rgb(202, 0, 111);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloE.submenu li:nth-child(5) a:hover { 
+  
+  background-color: #eb0091;
+  box-shadow: 0 0 10px rgb(202, 0, 111);
+  color: rgb(11, 76, 255);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloE.submenu li:nth-child(6) a:hover { 
+  
+  background-color: #fcd277;
+  box-shadow: 0 0 10px rgb(255, 250, 184);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+
+/*Estilos desplegables juego de lucha*/
+
+#EstiloL.submenu li:nth-child(1) a:hover { 
+  
+  background-color: #340086;
+  box-shadow: 0 0 10px rgb(2, 0, 141);
+  color: rgb(210, 176, 255);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloL.submenu li:nth-child(2) a:hover { 
+  
+  background-color: #b44124;
+  box-shadow: 0 0 10px rgb(255, 115, 0);
+  color: rgb(189, 224, 248);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloL.submenu li:nth-child(3) a:hover { 
+  
+  background-color: #e7e7e7;
+  box-shadow: 0 0 10px rgb(230, 230, 230);
+  color: rgb(99, 72, 59);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloL.submenu li:nth-child(4) a:hover { 
+  
+  background-color: #6158b8;
+  box-shadow: 0 0 10px rgb(154, 156, 255);
+  color: rgb(155, 207, 95);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloL.submenu li:nth-child(5) a:hover { 
+  
+  background-color: #b31e63;
+  box-shadow: 0 0 10px rgb(255, 20, 177);
+  color: rgb(0, 224, 206);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+#EstiloL.submenu li:nth-child(6) a:hover { 
+  
+  background-color: #ffd1e6;
+  box-shadow: 0 0 10px rgb(255, 208, 239);
+  color: rgb(253, 143, 0);
+  font-weight: bold;
+ border-radius: 12px;
+
+/*Estilo desplegable juego lucha single (solo hay 1)*/
+
+} 
+#EstiloIbun.submenu li:nth-child(1) a:hover { 
+  
+  background-color: #ffae00;
+  box-shadow: 0 0 10px rgb(255, 196, 0);
+  color: rgb(196, 1, 1);
+  font-weight: bold;
+ border-radius: 12px;
+} 
+
+/* Otro comentario laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargo, termina colores de desplegables*/
+/*Botón para volver arriba*/
+.botonA {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Para que no se quede por detrás */
+  
+}
+.botonA img {
+width: 60px;
+  height: 60px;
+}
+
+/*Boton para quiz* (Juego)*/
+.botonB {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000; /* Para que no se quede por detrás */
+  color: rgb(0, 204, 255);
+  text-align: center;
+  font-weight: bold;
+  
+}
+.botonB img {
+width: 60px;
+  height: 60px;
+}
