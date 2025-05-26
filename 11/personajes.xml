@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/okuu.png</imagen>
+    
+    <perfil id="Okuu" alias="Problemática divina" rareza="Peligrosa">
+      <nombre>Utsuho Reiuji</nombre>
+      <especie>Cuervo del infierno</especie>
+      <poder>Manipular la fusión nuclear</poder>
+      <localizacion>Antiguo infierno de los fuegos ardientes</localizacion>
+      <descripcion>
+      <p>Se encarga de controlar la temperatura del infierno de los fuegos ardientes, si las llamas se vuelven demasiado calientes, abre las compuertas externas y si las llamas se debilitan demasiado, arroja a más cadáveres a las llamas.</p>
+        <p> En su interior reside el poder de Yatagarasu, el cuervo divino de tres patas.  </p>
+        <p> Posee tres artefactos o "patas" con las que se dice que puede controlar la energía definitiva, en su pierna izquierda la fisión, en la derecha la fusión, y en su brazo controla ambas energías con un cañón llamado "La tercera pata"</p>
+      </descripcion>
+      <audio>audio/okuu.mp3</audio>
+      <tituloAudio>Solar Sect of Mystic Wisdom ~ Nuclear Fusion</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
