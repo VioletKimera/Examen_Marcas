@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Touhou Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+<!-- Pantalla de inicio -->
+<div id="pantalla-inicio" class="caja">
+  <h1>🌸 Bienvenido al Touhou Quiz 🌸</h1>
+  <p>Introduce tu nombre y edad:</p> <!-- pide nombre y edad (se usa más tarde en el ranking)-->
+  <input id="nombre-jugador" placeholder="Nombre" required />
+  <input id="edad-jugador" type="number" placeholder="Edad" required />
+  <br />
+  <button onclick="iniciarJuego()">Comenzar</button>
+</div>
+
+<!-- Contenedor del quiz -->
+<div id="contenedor-quiz" class="caja oculto">
+  <div class="pregunta" id="texto-pregunta"></div>
+  <div class="opciones" id="contenedor-opciones"></div>
+  <div class="resultado" id="mensaje-resultado"></div>
+</div>
+
+<!-- Ranking final -->
+<div id="seccion-ranking" class="caja oculto">
+  <h2>🏆 Ranking de jugadores 🏆</h2>
+  <ul id="lista-ranking"></ul>
+</div>
+<a href="../index.html" class="botonB">
+  <img src="img/volver.png" alt="Volver"/>
+</a>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>

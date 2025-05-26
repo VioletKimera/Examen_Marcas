@@ -1,0 +1,111 @@
+/* Es el tercer css que comento */
+
+/*Body general, cambia el tipo de letras de todo, el fondo y los colores base, en este casi todo lo básico está en el body */
+body {
+  font-family: "Yu Mincho", "serif";
+
+  background-image: url('img/cirno.PNG');
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 40px;
+  margin: 0;
+}
+
+/* la caja donde ocurre el minijuego y todos sus componentes */
+.caja {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  border: none;
+  width: 40%;
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #8844cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #aa66ee;
+}
+
+.pregunta { /*es que no creo que tenga que comentar todo esto, los nombres de las clases dicen exáctamente lo que tocan */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.opcion {
+  margin-bottom: 15px;
+}
+
+.opcion button {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+  background-color: #8844cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.opcion button:hover {
+  background-color: #aa66ee;
+}
+
+.resultado {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.oculto {
+  display: none;
+}
+
+#lista-ranking {
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+#lista-ranking li {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 8px 0;
+  font-size: 18px;
+}
+.botonB {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Para que no se quede por detrás */
+  
+}
+.botonB img {
+width: 60px;
+  height: 60px;
+}
