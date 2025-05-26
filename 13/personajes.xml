@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/miko.png</imagen>
+    
+    <perfil id="miko" alias="Taoista Shoutoku" rareza="rara">
+      <nombre>Toyosatomimi no Miko</nombre>
+      <especie>Santa, Hermitaña</especie>
+      <poder>Escuchar conversaciones de diez personas a la vez</poder>
+      <localizacion>El gran mausoleo</localizacion>
+      <descripcion>
+      <p>Los rumores sobre ella se extendían por toda la tierra, ganando una enorme popularidad como santa. </p>
+      <p>"La tierra no ha cambiado a partir de la era de los dioses, y los mares todavía están llenos hasta el borde.
+¿Por qué los humanos deben ser obligados a aceptar la muerte?" Insatisfecha con su destino de que como humana acabaría muriendo, empezó sus investigaciones con el Taoismo.</p>
+        <p>El taoísmo era esencialmente la adoración de la naturaleza, y al convertirse en uno con la naturaleza podía otorgar la inmortalidad a sus seguidores. 
+    Extendió el budismo por todo el país, mientras que en las sombras, avanzaba con sus propios experimentos del taoísmo.
+Como resultado, obtuvo habilidades sobrehumanas. </p>
+    <p>Pensando que no podía esperar lo suficiente con el estado en el que estaba su cuerpo, decidió convertirse en un shikaisen. Esta era una técnica secreta en la que moriría  y sería resucitada después. </p>
+    <p>Había planeado despertar cuando la nación se sintiese limitada por sus preceptos budistas y sintiese la necesidad de tener un santo. Pero los cálculos salieron mal y la nación estuvo controlada por el budismo por más de mil años. </p>
+      </descripcion>
+      <audio>audio/miko.mp3</audio>
+      <tituloAudio>Shoutoku Legend ~ True Administrator</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
