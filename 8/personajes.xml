@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/kaguya.png</imagen>
+    
+    <perfil id="Eirin" alias="Cerebro de la Luna" rareza="Atipica">
+      <nombre>Eirin Yagokoro</nombre>
+      <especie>Lunarian (Diosa)</especie>
+      <poder>Creación de medicinas y drogas</poder>
+      <localizacion>Eientei</localizacion>
+      <descripcion>
+        <p>La familia Yagokoro es conocida por estar llena de genios medicinales que han estado viviendo en la luna durante mucho tiempo. Incluso entre ellos, Eirin es excepcionalmente inteligente, y sobre todo es mucho más inteligente que cualquier humano.   </p>
+        <p>Hace mucho tiempo, Eirin formaba parte de un grupo de mensajeros enviados a la tierra para traer de vuelta a la princesa Kaguya hacia la luna, pero por alguna razón ayudó a Kaguya a matar a todos los demás mensajeros. 
+        Para asegurarse de que los terrícolas que vivían con Kaguya en ese entonces permanecieran en silencio, los sobornó con el Elixsit Hourai. Un elixir con el poder de hacer a la gente inmortal. Sin embargo, ninguno de esos terrícolas consumió el elixir y murieron poco después.  </p>
+      <p> Actualmente vive en el Eientei junto a la Princesa Kaguya, creando medicinas y elixires para los humanos y yokai de Gensokyo.</p>
+      </descripcion>
+      <audio>audio/eirin.mp3</audio>
+      <tituloAudio>Gensokyo Millennium ~ History of the Moon</tituloAudio>
+    </perfil>
+    
+    <perfil id="Kaguya" alias="Princesa Eterna" rareza="Legendaria">
+      <nombre>Kaguya Houraisan</nombre>
+      <especie>Lunarian</especie>
+      <poder>Manipular la eternidad</poder>
+      <localizacion>Eientei</localizacion>
+      <descripcion>
+        <p>Nació en la casa real de la luna y fue tratada con el máximo cuidado como una princesa. Por eso, se hizo muy egoísta. Pero un escándalo le cambió la vida. Hizo que Eirin hiciera el Elixir Hourai(-una medicina prohibida) por interés propio y la consumió.</p>
+        <p> Kaguya fue ejecutada por ello, pero gracias al poder de la eternidad otorgado por el Elixir, resucitó inmediatamente. Como no podía morir, fue exiliada a la Tierra y obligada a vivir entre sucios humanos.  </p>
+     <p>Unos años después, se le permitió volver a la luna, pero se había apegado a las personas con las que vivía y prefería la vida en la Tierra, que era mucho más emocional que la vida que tenía en la luna.</p>
+      <p>Ha pasado mucho, mucho tiempo desde entonces.</p>
+      </descripcion>
+      <audio>audio/kaguya.mp3</audio>
+      <tituloAudio>Flight of the Bamboo Cutter ~ Lunatic Princess</tituloAudio>
+    </perfil>
+    
+  </personaje>
+</personajes>
