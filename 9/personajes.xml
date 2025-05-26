@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/eiki.png</imagen>
+    
+    <perfil id="Eiki" alias="Jueza suprema del paraíso" rareza="Atipica">
+      <nombre>Eiki Shiki, Yamaxanadu</nombre>
+      <especie>Yama</especie>
+      <poder>Juzgar cualquier cosa</poder>
+      <localizacion>Higan</localizacion>
+      <descripcion>
+        <p>El Yama que juzga a las personas después de morir, Eiki es imparcial con cualquiera ya sea humano o youkai y decide si van al Cielo, al Infierno, al Inframundo, o si son reencarnados.  </p>
+        <p>A diferencia de los humanos, tiene un criterio de lo correcto y lo incorrecto en su propia mente. Su sentencia no puede ser anulada por el fallecido. Su criterio es bastante complicado, y la gravedad de los crímenes factoría en todo, desde por qué se les ocurrió hasta la historia personal de los involucrados. </p>
+      <p>Ya sea porque tiene la costumbre de sermonear o porque realmente quiere que otros cambien para mejor, se ha vuelto muy conocida en Gensokyo por dar lecciones a cualquiera y a todos sobre sus defectos. Las almas de los muertos son traídas a ella por Komachi Onozuka, quien los transporta sobre el río Sanzu hasta Higan, aunque no todas las almas consiguen recorrer todo el camino sin estar cansadas del viaje o ser extinguida directamente por Komachi.</p>
+      </descripcion>
+      <audio>audio/eiki.mp3</audio>
+      <tituloAudio>Eastern Judgement in the Sixtieth Year ~ Fate of Sixty Years </tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
