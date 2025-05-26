@@ -1,0 +1,22 @@
+<!ELEMENT personajes (personaje+)>
+
+<!ELEMENT personaje (imagen, perfil+)>
+<!ATTLIST personaje id ID #REQUIRED>
+<!ATTLIST personaje alias CDATA #IMPLIED>
+<!ATTLIST personaje rareza CDATA "raro">
+
+<!ELEMENT imagen (#PCDATA)>
+
+<!ELEMENT perfil (nombre, especie, poder, localizacion, incidente, descripcion, audio, tituloAudio)>
+<!ATTLIST perfil id ID #REQUIRED>
+<!ATTLIST perfil alias CDATA #IMPLIED>
+<!ATTLIST perfil rareza CDATA "raro">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT especie (#PCDATA)>
+<!ELEMENT poder (#PCDATA)>
+<!ELEMENT localizacion (#PCDATA)>
+<!ELEMENT descripcion (p+)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT audio (#PCDATA)>
+<!ELEMENT tituloAudio (#PCDATA)>

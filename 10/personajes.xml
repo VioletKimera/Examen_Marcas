@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/kanako.png</imagen>
+    
+    <perfil id="Kanako" alias="Avatar de las montañas y lagos" rareza="Atipica">
+      <nombre>Kanako Yasaka</nombre>
+      <especie>Diosa del viento y de la lluvia</especie>
+      <poder>Creación del Quián (Poder celestial)</poder>
+      <localizacion>Santuario Moriya</localizacion>
+      <descripcion>
+      <p>Una de los diosas de Yamato, se hizo cargo del reino gobernado por la diosa nativa Suwako Moriya sosteniendo una delgada vid que oxidaba  inmediatamente todo el armamento de hierro de Suwako. Sin embargo, a los habitantes del reino de Suwako les resultó difícil aceptar su nueva deidad. Con el fin de consolidar su reino recién descubierto, tomó prestados los poderes de Suwako.</p>
+        <p>Sin embargo, a medida que pasaba el tiempo los humanos finalmente comenzaron a no creer en el concepto de eternidad, que Kanako en parte representaba. Se hicieron más fuertes e inventaron formas de sortear los problemas agrícolas que planteaba la fuerte lluvia y el viento. A medida que su creencia en la ciencia y la información creció, su fe en dioses como Kanako menguaba, y así hizo su poder. </p>
+        <p>Decidió que lo más apropiado sería abandonar el mundo humano y reunir la fe en Gensokyo. Terminó funcionando bastante bien, y comenzó a ser adorada como la deidad de la montaña Youkai.  </p>
+      </descripcion>
+      <audio>audio/kanako.mp3</audio>
+      <tituloAudio>The Venerable Ancient Battlefield ~ Suwa Foughten Field</tituloAudio>
+    </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
