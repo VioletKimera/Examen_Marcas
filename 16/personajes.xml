@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+<?xml-stylesheet type="text/xsl" href="estilos.xsl"?>
+
+<personajes>
+  <personaje id="DobleFicha" alias="Fusión" rareza="raro">
+    <imagen>img/okina.png</imagen>
+    
+    <perfil id="okina" alias="Diosa absolutamente secreta" rareza="legendaria">
+      <nombre>Okina Matara</nombre>
+      <especie>Diosa secreta</especie>
+      <poder>Crear "Puertas traseras" donde quiera</poder>
+      <localizacion>Tierra de la puerta trasera</localizacion>
+      <descripcion>
+      <p>Una diosa escondida que acecha detrás de todas las cosas jamás creadas. Nadie sabe cuál es su verdadera naturaleza, es la última diosa secreta, cuya verdadera forma nunca debe ser vista, oída o hablada.</p>
+      <p> Posee una amplia gama de caras y nombres públicos... la diosa madre de la Tierra, la diosa de noh, la diosa de las estrellas, la diosa de cría de gusanos de seda, la diosa de los pueblos discriminados, etcétera.</p>
+      <p>No muestra misericordia de aquellos que actúan groseramente con ella, y concede bendiciones a aquellos que la tratan con reverencia. </p>
+      <p>Es una de las sabias que creó el Gensokyo y se encarga de protegerlo, aunque sus tareas más insignificantes suelen ser confiadas a sus dos sirvientes douji, Satono y Mai.  </p>
+     
+      </descripcion>
+      <audio>audio/okina.opus</audio>
+      <tituloAudio>The Concealed Four Seasons</tituloAudio>
+   </perfil>
+    
+    
+    
+  </personaje>
+</personajes>
